@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional Portfolio - Creative Developer & Designer"
+    />
+    <title>Portfolio 2026</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-container">
+        <a href="#home" class="nav-logo">dev.yalan</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <iconify-icon
+            icon="lucide:sun-moon"
+            class="theme-icon sun"
+          ></iconify-icon>
+          <iconify-icon
+            icon="lucide:moon-star"
+            class="theme-icon moon"
+          ></iconify-icon>
+        </button>
+        <button
+          class="mobile-menu-btn"
+          id="mobileMenuBtn"
+          aria-label="Toggle menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="hero-container" id="heroContainer">
+        <div class="hero-content">
+          <span class="hero-tag">Welcome to my world</span>
+          <h1 class="hero-title">
+            <span class="title-line">Creative</span>
+            <span class="title-line accent">Developer</span>
+            <span class="title-line">&amp; Designer</span>
+          </h1>
+          <p class="hero-description">
+            Crafting digital experiences with precision, passion, and a touch of
+            magic. I transform ideas into stunning, interactive realities.
+          </p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+            <a href="#projects" class="btn btn-secondary">View My Work</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-indicator">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="section-container">
+        <div class="about-content">
+          <div class="about-text">
+            <span class="section-tag">About Me</span>
+            <h2 class="section-title magnetic-text" data-animate="blur">
+              Solving Complex Problems through Code
+            </h2>
+            <p class="about-description magnetic-text" data-animate="blur">
+              I am a specialized Software Developer dedicated to engineering
+              high-performance digital solutions. My expertise lies at the
+              intersection of robust backend architecture and fluid, immersive
+              frontend experiences. I don't just build websites; I engineer
+              scalable systems that drive engagement.
+            </p>
+            <p class="about-description magnetic-text" data-animate="blur">
+              With a background in software enginnering and a passion for
+              cutting-edge technologies, I focus on delivering code that is as
+              clean as it is functional. I thrive in environments that challenge
+              my technical limits and allow me to push the boundaries of what's
+              possible on the web world.
+            </p>
+            <div class="about-stats magnetic-text" data-animate="blur">
+              <div class="stat-item">
+                <span class="stat-number">12+</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">3+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">05+</span>
+                <span class="stat-label">Happy Clients</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-image magnetic-text" data-animate="blur">
+            <div class="image-frame">
+              <img
+                src="assets/profile.png"
+                alt="Profile Image"
+                class="profile-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="section-container">
+        <span class="section-tag">My Expertise</span>
+        <h2 class="section-title">Skills & Technologies</h2>
+
+        <div class="bento-grid">
+          <!-- Frontend Card -->
+          <div class="bento-card bento-large" data-tilt>
+            <div class="card-glow"></div>
+            <div class="card-content">
+              <div class="card-icon">
+                <iconify-icon icon="lucide:bring-to-front"></iconify-icon>
+              </div>
+              <h3 class="card-title">Frontend</h3>
+              <p class="card-description">
+                Building beautiful, responsive user interfaces
+              </p>
+              <div class="skill-tags">
+                <span class="skill-tag"
+                  ><iconify-icon icon="logos:html-5"></iconify-icon> HTML5</span
+                >
+                <span class="skill-tag"
+                  ><iconify-icon icon="logos:css-3"></iconify-icon> CSS3</span
+                >
+                <span class="skill-tag"
+                  ><iconify-icon icon="logos:javascript"></iconify-icon>
+                  JavaScript</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Frameworks Card -->
+          <div class="bento-card bento-medium" data-tilt>
+            <div class="card-glow"></div>
+            <div class="card-content">
+              <div class="card-icon">
+                <iconify-icon icon="lucide:layers"></iconify-icon>
+              </div>
+              <h3 class="card-title">Frameworks</h3>
+              <p class="card-description">Modern tools for modern apps</p>
+              <div class="skill-tags">
+                <span class="skill-tag"
+                  ><iconify-icon icon="logos:react"></iconify-icon> React</span
+                >
+                <span class="skill-tag"
+                  ><iconify-icon icon="simple-icons:express"></iconify-icon>
+                  Express</span
+                >
+                <span class="skill-tag"
+                  ><iconify-icon icon="logos:nodejs-icon"></iconify-icon>
+                  Node.js</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend Card -->
+          <div class="bento-card bento-medium" data-tilt>
+            <div class="card-glow"></div>
+            <div class="card-content">
+              <div class="card-icon">
+                <iconify-icon icon="lucide:database"></iconify-icon>
+              </div>
+              <h3 class="card-title">Backend</h3>
+              <p class="card-description">Robust and scalable solutions</p>
+              <div class="skill-tags">
+                <span class="skill-tag"
+                  ><iconify-icon icon="logos:firebase"></iconify-icon>
+                  Firebase</span
+                >
+                <span class="skill-tag"
+                  ><iconify-icon icon="logos:mongodb-icon"></iconify-icon>
+                  MongoDB</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools Card -->
+          <div class="bento-card bento-small" data-tilt>
+            <div class="card-glow"></div>
+            <div class="card-content">
+              <div class="card-icon">
+                <iconify-icon icon="lucide:toolbox"></iconify-icon>
+              </div>
+              <h3 class="card-title">Tools</h3>
+              <div class="skill-tags">
+                <span class="skill-tag"
+                  ><iconify-icon icon="logos:github-icon"></iconify-icon>
+                  GitHub</span
+                >
+                <span class="skill-tag"
+                  ><iconify-icon icon="logos:figma"></iconify-icon> Figma</span
+                >
+                <span class="skill-tag"
+                  ><iconify-icon icon="logos:visual-studio-code"></iconify-icon>
+                  VS Code</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Design Card -->
+          <div class="bento-card bento-small" data-tilt>
+            <div class="card-glow"></div>
+            <div class="card-content">
+              <div class="card-icon">
+                <iconify-icon icon="lucide:wand-sparkles"></iconify-icon>
+              </div>
+              <h3 class="card-title">Design</h3>
+              <div class="skill-tags">
+                <span class="skill-tag"
+                  ><iconify-icon icon="lucide:layout"></iconify-icon>
+                  UI/UX</span
+                >
+                <span class="skill-tag"
+                  ><iconify-icon icon="lucide:binary"></iconify-icon>
+                  Prototyping</span
+                >
+                <span class="skill-tag"
+                  ><iconify-icon icon="lucide:activity"></iconify-icon>
+                  Animation</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <div class="section-container">
+        <span class="section-tag">Projects Build</span>
+        <h2 class="section-title">Innovating Digital Solutions</h2>
+
+        <div class="projects-grid">
+          <!-- Project 1: Weather App -->
+          <div class="project-card" data-animate="sequential" data-tilt>
+            <a
+              href="https://github.com/uaithegreat001/Weather-App"
+              class="project-image-link"
+              aria-label="Weather App GitHub"
+            >
+              <div class="project-image">
+                <div class="project-placeholder">
+                  <iconify-icon icon="lucide:cloud-sun"></iconify-icon>
+                </div>
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <span class="project-link">
+                      <iconify-icon icon="lucide:github"></iconify-icon>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="project-info">
+              <a
+                href="https://github.com/uaithegreat001/Weather-App"
+                class="project-title-link"
+              >
+                <h3 class="project-name">Weather App</h3>
+              </a>
+              <p class="project-desc">
+                Ever stepped out and got drenched? I built this so you never
+                have to guess again. Real-time updates right in your pocket.
+              </p>
+              <button class="read-more-btn">Read More</button>
+              <div class="project-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">API</span>
+                <span class="tag">CSS3</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: WastePickUp System -->
+          <div class="project-card" data-animate="sequential" data-tilt>
+            <a
+              href="https://github.com/uaithegreat001/WastePickUp-System"
+              class="project-image-link"
+              aria-label="WastePickUp System GitHub"
+            >
+              <div class="project-image">
+                <div class="project-placeholder">
+                  <iconify-icon icon="lucide:truck"></iconify-icon>
+                </div>
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <span class="project-link">
+                      <iconify-icon icon="lucide:github"></iconify-icon>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="project-info">
+              <a
+                href="https://github.com/uaithegreat001/WastePickUp-System"
+                class="project-title-link"
+              >
+                <h3 class="project-name">WastePickUp System</h3>
+              </a>
+              <p class="project-desc">
+                Cleaning up our streets one click at a time. A smart way to
+                manage waste collection and keep our neighborhoods blooming.
+              </p>
+              <button class="read-more-btn">Read More</button>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">Map</span>
+                <span class="tag">Management</span>
+              </div>
+            </div>
+          </div>
+          <!-- Project 3: Quiz App -->
+          <div class="project-card" data-animate="sequential" data-tilt>
+            <a
+              href="https://github.com/uaithegreat001/Quiz-App"
+              class="project-image-link"
+              aria-label="Quiz App GitHub"
+            >
+              <div class="project-image">
+                <div class="project-placeholder">
+                  <iconify-icon icon="lucide:brain-circuit"></iconify-icon>
+                </div>
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <span class="project-link">
+                      <iconify-icon icon="lucide:github"></iconify-icon>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="project-info">
+              <a
+                href="https://github.com/uaithegreat001/Quiz-App"
+                class="project-title-link"
+              >
+                <h3 class="project-name">Quiz App</h3>
+              </a>
+              <p class="project-desc">
+                Think you're the smartest in the room? Test your brain with this
+                fun quiz. Warning: it might humble you!
+              </p>
+              <button class="read-more-btn">Read More</button>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: To-do List App -->
+          <div class="project-card" data-animate="sequential" data-tilt>
+            <a
+              href="https://github.com/uaithegreat001/To-do-list-app"
+              class="project-image-link"
+              aria-label="To-do List App GitHub"
+            >
+              <div class="project-image">
+                <div class="project-placeholder">
+                  <iconify-icon icon="lucide:list-todo"></iconify-icon>
+                </div>
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <span class="project-link">
+                      <iconify-icon icon="lucide:github"></iconify-icon>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="project-info">
+              <a
+                href="https://github.com/uaithegreat001/To-do-list-app"
+                class="project-title-link"
+              >
+                <h3 class="project-name">To do list App</h3>
+              </a>
+              <p class="project-desc">
+                Your brain is for having ideas, not storing them. This little
+                helper keeps your day organized so you can actually get things
+                done.
+              </p>
+              <button class="read-more-btn">Read More</button>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <!-- Project 5: Blog Website -->
+          <div class="project-card" data-animate="sequential" data-tilt>
+            <a
+              href="https://github.com/uaithegreat001/Blog-Website"
+              class="project-image-link"
+              aria-label="Blog Website GitHub"
+            >
+              <div class="project-image">
+                <div class="project-placeholder">
+                  <iconify-icon icon="lucide:pen-tool"></iconify-icon>
+                </div>
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <span class="project-link">
+                      <iconify-icon icon="lucide:github"></iconify-icon>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="project-info">
+              <a
+                href="https://github.com/uaithegreat001/Blog-Website"
+                class="project-title-link"
+              >
+                <h3 class="project-name">Blog Website</h3>
+              </a>
+              <p class="project-desc">
+                A cozy corner on the internet for sharing stories. Because
+                everyone has something to say, and it deserves a beautiful home.
+              </p>
+              <button class="read-more-btn">Read More</button>
+              <div class="project-tags">
+                <span class="tag">React.js</span>
+                <span class="tag">Firebase</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="section-container">
+        <div class="contact-wrapper" id="contactWrapper">
+          <div class="contact-content">
+            <span class="section-tag">Get in Touch</span>
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="contact-description">
+              Have a project in mind? Let's create something amazing together.
+            </p>
+
+            <form
+              class="contact-form"
+              id="contactForm"
+              action="https://formspree.io/f/mlgldnwz"
+              method="POST"
+            >
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder=" "
+                  required
+                />
+                <label for="name">Your Name</label>
+                <span class="input-line"></span>
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder=" "
+                  required
+                />
+                <label for="email">Your Email</label>
+                <span class="input-line"></span>
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder=" "
+                  required
+                ></textarea>
+                <label for="message">Your Message</label>
+                <span class="input-line"></span>
+              </div>
+              <button type="submit" class="btn btn-primary btn-submit">
+                <span>Send Message</span>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M22 2L11 13M22 2L15 22L11 13M11 13L2 9L22 2" />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="liquid-background" id="liquidBg"></div>
+      <div class="footer-container">
+        <div class="footer-flip-card" id="footerFlipCard">
+          <div class="footer-card-inner">
+            <!-- Front side -->
+            <div class="footer-card-front">
+              <div class="footer-flex-content">
+                <p class="footer-text">&copy; 2026 dev.yalan</p>
+                <div class="social-links-container">
+                  <a
+                    href="#"
+                    class="footer-social-link github"
+                    aria-label="GitHub"
+                  >
+                    <iconify-icon icon="line-md:github-loop"></iconify-icon>
+                  </a>
+                  <a
+                    href="#"
+                    class="footer-social-link email"
+                    aria-label="Email"
+                  >
+                    <iconify-icon icon="line-md:email-opened"></iconify-icon>
+                  </a>
+                  <a
+                    href="#"
+                    class="footer-social-link devto"
+                    aria-label="Dev.to"
+                  >
+                    <iconify-icon icon="simple-icons:devdotto"></iconify-icon>
+                  </a>
+                  <a href="#" class="footer-social-link x" aria-label="X">
+                    <iconify-icon icon="simple-icons:x"></iconify-icon>
+                  </a>
+                  <a
+                    href="#"
+                    class="footer-social-link whatsapp"
+                    aria-label="WhatsApp"
+                  >
+                    <iconify-icon icon="line-md:whatsapp-loop"></iconify-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Back side -->
+            <div class="footer-card-back">
+              <div class="footer-flex-content">
+                <p class="footer-text">&copy; 2026 dev.yalan</p>
+                <div class="social-links-container">
+                  <a
+                    href="https://github.com/uaithegreat001"
+                    class="footer-social-link github"
+                    aria-label="GitHub"
+                  >
+                    <iconify-icon icon="line-md:github-loop"></iconify-icon>
+                  </a>
+                  <a
+                    href="mailto:usmanabdullahi001@gmail.com"
+                    class="footer-social-link email"
+                    aria-label="Email"
+                  >
+                    <iconify-icon icon="line-md:email-opened"></iconify-icon>
+                  </a>
+                  <a
+                    href="https://dev.to/devyalan"
+                    class="footer-social-link devto"
+                    aria-label="Dev.to"
+                  >
+                    <iconify-icon icon="simple-icons:devdotto"></iconify-icon>
+                  </a>
+
+                  <a
+                    href="https://wa.me/2348161511602"
+                    class="footer-social-link whatsapp"
+                    aria-label="WhatsApp"
+                  >
+                    <iconify-icon icon="line-md:whatsapp-loop"></iconify-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
