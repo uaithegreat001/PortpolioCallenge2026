@@ -32,7 +32,7 @@ A high-performance, interactive developer portfolio built to demonstrate the pow
 1.  **Clone the repository**
 
     ```bash
-    git clone https://github.com/uaithegreat001/Portfolio-2026.git
+    git clone https://github.com/uaithegreat001/PortpolioCallenge2026.git
     ```
 
 2.  **Open the project**
